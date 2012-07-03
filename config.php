@@ -7,7 +7,7 @@ define(DBPASS, '');
 define(DBNAME, '');
 
 //SCRIPT ROOT DIR
-define(WEBROOT, '/betteryoo/');					// Web Root
+define(WEBROOT, '/betteryoo/');				// Web Root
 
 // DEBUGING CONFIGURATION
 //define(DEBUG, 1);
@@ -17,25 +17,25 @@ define(WEBROOT, '/betteryoo/');					// Web Root
 
 
 date_default_timezone_set('GMT');
-define(ROOT, dirname(__FILE__) . '/');      	// Root directory
+define(ROOT, dirname(__FILE__) . '/');      		// Root directory
 
 /* Globals
 -----------------------------*/
-define(REMINDERLIMIT, 3);						// Limit for free acount reminders
-define(PROLIMIT, 2000);							// Limit for pro account
+define(REMINDERLIMIT, 3);				// Limit for free acount reminders
+define(PROLIMIT, 2000);					// Limit for pro account
 define(YOOEMAIL, 'reminder@BetterYoo.com');		// BetterYoo E-Mail Addy
-define(SQLDATE, 'Y-m-d H:i:s');					// MySQL date format
+define(SQLDATE, 'Y-m-d H:i:s');				// MySQL date format
 define(ENGLISHDATE, 'D M jS Y @ g:i a');
 define(LEAPYEAR, date('L', time()));			// Whether it is a leap year
 
-define(SECONDS_HOUR, 3600);						// Seconds in a hour
-define(SECONDS_DAY, 86400);						// "         "  day
-define(SECONDS_WEEK, 604800);					// "         "  week
-define(SECONDS_MONTH, 2629743);					// "         "  month
-define(SECONDS_YEAR, 31536000);					// "         "  year
+define(SECONDS_HOUR, 3600);				// Seconds in a hour
+define(SECONDS_DAY, 86400);				// "         "  day
+define(SECONDS_WEEK, 604800);				// "         "  week
+define(SECONDS_MONTH, 2629743);				// "         "  month
+define(SECONDS_YEAR, 31536000);				// "         "  year
 
-define(COOKIE_EXPIRE, 60*60*24*7);  			//7 days by default
-define(SALT, '$%ad34ADSFE32#fae$$%#adfEREa');	// Password salt
+define(COOKIE_EXPIRE, 60*60*24*7);			//7 days by default
+define(SALT, '$%ad34ADSFE32#fae$$%#adfEREa');		// Password salt
 
 
 /* Faux Global Arrays
